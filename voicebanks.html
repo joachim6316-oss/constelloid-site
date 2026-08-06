@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constelloid - Voicebanks</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./media/logo.ico">
+</head>
+<body>
+<!-- header-->
+    <nav>
+            <a href="./index.html" class="logo-link"><img class="logo" src="./media/logo.png" alt="Logo"></a>
+            <button class="burger" id="burger-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu" id="site-menu">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./voicebanks.html">Voicebanks</a></li>
+                <li><a href="./ressources.html">Ressources</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./partners.html">Partenaires</a></li>
+            </ul>
+    </nav>
+
+    <h1>Voicebanks</h1>
+    <p class="quote">Du numérique aux étoiles...</p>
+
+<p class="intro">Retrouvez notre séléction de voicebanks</p>
+
+<div class="articles">
+    <div class="article">
+        <div>
+            <center>
+                <img class="portrait" src="./media/portrait/kenzo.jpg" alt="portrait">
+            </center>
+        </div>
+        <div class="voice-title">
+            <img src="./media/voice.svg" alt="voicebanks" class="voice" onclick="document.getElementById('audio-kenzo').play()">
+            <audio id="audio-kenzo" src="./media/sounds/kenzo-demo-harmonie.wav" type="audio/wav"></audio>
+            <h2 class="title-singer">Kenzo</h2>
+        </div>
+        <a class="download-button" href="./kenzo-vb.html">Télécharger</a>
+    </div>
+
+    <div class="article">
+    <div>
+        <center>
+            <img class="portrait" src="./media/portrait/jonah-diff.jpg" alt="portrait">
+        </center>
+    </div>
+    <div class="voice-title">
+        <img src="./media/voice.svg" alt="voicebanks" class="voice" onclick="document.getElementById('audio-jonah').play()">
+        <audio id="audio-jonah" src="./media/sounds/jonah-cube-demo_Track1_01.wav" type="audio/wav"></audio>
+        <h2 class="title-singer">JoNah</h2>
+    </div>
+        <a class="download-button" href="./jonah-vb.html">Télécharger</a>
+</div>
+
+<div class="article">
+    <div>
+        <center>
+            <img class="portrait" src="./media/portrait/tease-01.jpg" alt="portrait">
+        </center>
+    </div>
+    <div class="voice-title">
+        <h2 class="title-singer">À venir</h2>
+    </div>
+    <a class="download-button" href="./TBA-01.html">Télécharger</a>
+</div>
+
+<div class="article">
+    <div>
+        <center>
+            <img class="portrait" src="./media/portrait/tease-02.jpg" alt="portrait">
+        </center>
+    </div>
+    <div class="voice-title">
+        <h2 class="title-singer">À venir</h2>
+    </div>
+    <a class="download-button" href="./TBA-02.html">Télécharger</a>
+</div>
+
+<div class="article">
+    <div>
+        <center>
+            <img class="portrait" src="./media/portrait/tease-03.jpg" alt="portrait">
+        </center>
+    </div>
+    <div class="voice-title">
+        <h2 class="title-singer">À venir</h2>
+    </div>
+    <a class="download-button" href="./TBA-03.html">Télécharger</a>
+</div>
+
+</div>
+
+<!--footer-->
+    <footer>
+        <div class="footer-content">
+            <h3>Liens rapides</h3>
+            <ul class="list">              
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="./voicebanks.html">Voicebank</a></li>
+                <li><a href="./ressources.html">Ressources</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./partners.html">Partenaires</a></li>
+                <li><a href="./tos.html">Conditions d'Utilisation</a></li>
+                <li><a href="./legal.html">Mentions légales</a></li>
+            </ul>
+            <p>2026 Constelloid. Tous droits réservés.</p>
+        </div>
+        
+    </footer>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
